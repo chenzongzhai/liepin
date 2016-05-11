@@ -48,7 +48,7 @@ scrapy爬取猎聘网招聘信息
    
    ) ENGINE=InnoDB AUTO_INCREMENT=390 DEFAULT CHARSET=utf8;
 
-启动命令：scrapy crawl lipin
+启动命令：scrapy crawl liepin
 
 项目中log还有些问题，应该有更好的写法，之后会项目中添加download中间件，itemloder。
 
