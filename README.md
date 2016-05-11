@@ -18,35 +18,35 @@ scrapy爬取猎聘网招聘信息
 
 CREATE TABLE `liepin` (
 
-   `id` int(4) NOT NULL auto_increment,
+      `id` int(4) NOT NULL auto_increment,
    
-   `url` varchar(100) NOT NULL,
+      `url` varchar(100) NOT NULL,
    
-   `code_md5` varchar(32) NOT NULL,
+      `code_md5` varchar(32) NOT NULL,
    
-   `name` varchar(00) NOT NULL,
+      `name` varchar(00) NOT NULL,
    
-   `company_name` varchar(200) default NULL,
+      `company_name` varchar(200) default NULL,
    
-   `publish_time` date default NULL,
+      `publish_time` date default NULL,
    
-   `create_time` timestamp default NULL,
+      `create_time` timestamp default NULL,
    
-   `requires` varchar(100) default NULL,
+      `requires` varchar(100) default NULL,
    
-   `pay` varchar(50) default NULL,
+      `pay` varchar(50) default NULL,
    
-   `company_size` varchar(30) default NULL,
+      `company_size` varchar(30) default NULL,
    
-   `company_address` varchar(200) default NULL,
+      `company_address` varchar(200) default NULL,
    
-   `company_type` varchar(50) default NULL,
+      `company_type` varchar(50) default NULL,
    
-   PRIMARY KEY  (`id`),
+      PRIMARY KEY  (`id`),
    
-   UNIQUE KEY `code_md5` (`code_md5`)
+      UNIQUE KEY `code_md5` (`code_md5`)
    
- ) ENGINE=InnoDB AUTO_INCREMENT=390 DEFAULT CHARSET=utf8;
+   ) ENGINE=InnoDB AUTO_INCREMENT=390 DEFAULT CHARSET=utf8;
 
 启动命令：scrapy crawl lipin
 
