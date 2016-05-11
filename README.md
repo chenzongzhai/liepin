@@ -49,3 +49,24 @@ CREATE TABLE `liepin` (
  ) ENGINE=InnoDB AUTO_INCREMENT=390 DEFAULT CHARSET=utf8;
 
 启动命令：scrapy crawl lipin
+
+项目中log还有些问题，应该有更好的写法，之后会项目中添加download中间件，itemloder。
+
+个人感觉scrapy跟django很像
+
+# 参考资料：
+
+# scrapy 官方文档
+http://scrapy-chs.readthedocs.io/zh_CN/latest/intro/tutorial.html
+
+# scrapy 项目参考资料
+http://www.wtoutiao.com/a/3063656.html
+
+# scrapy 写数据库资料
+http://www.sharejs.com/codes/python/8392
+https://www.douban.com/group/topic/71578175/
+
+# scrapy 更改下载器中间键，设置代理ip
+http://blog.csdn.net/yelbosh/article/details/21542073
+
+......
