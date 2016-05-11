@@ -24,7 +24,7 @@ scrapy爬取猎聘网招聘信息
    
       `code_md5` varchar(32) NOT NULL,
    
-      `name` varchar(00) NOT NULL,
+      `name` varchar(100) NOT NULL,
    
       `company_name` varchar(200) default NULL,
    
