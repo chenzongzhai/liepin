@@ -27,6 +27,8 @@ def get_publish(pub):
         publish_time = today
     elif pub.find("昨天") != -1:
         publish_time = today - datetime.timedelta(days=1)
+    elif pub.find("前天") != -1:
+        publish_time = today - datetime.timedelta(days=2)
     else:
         result = re.search('\d+-\d+-\d+', pub)
         if result:
