@@ -16,7 +16,7 @@ scrapy爬取猎聘网招聘信息
 
 启动程序需要先配置好MySQL数据库信息，创建对应表，建表语句参考：
 
-CREATE TABLE `liepin` (
+   CREATE TABLE `liepin` (
 
       `id` int(4) NOT NULL auto_increment,
    
