@@ -23,7 +23,7 @@ def md5str(strr):
 # 发布日期转换，统一转换成datatime格式
 def get_publish(pub):
     today = datetime.date.today()
-    if pub.find("小时") != -1 or pub.find("分钟") != -1:
+    if pub.find("小时") != -1 or pub.find("分钟") != -1 or pub.find("刚刚") != -1:
         publish_time = today
     elif pub.find("昨天") != -1:
         publish_time = today - datetime.timedelta(days=1)
