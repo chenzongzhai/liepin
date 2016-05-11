@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from scrapy.spiders import BaseSpider
+from scrapy.spiders import Spider
 from scrapy.selector import Selector
 from scrapy.http import Request
 # from scrapy.loader import ItemLoader
@@ -11,7 +11,7 @@ from utils import is_match
 from config import CONFIG
 
 
-class LiepinSpider(BaseSpider):
+class LiepinSpider(Spider):
     name = "liepin"
     allowed_domains = CONFIG['allowed_domains']
     start_urls = CONFIG['start_urls']
