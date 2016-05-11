@@ -56,17 +56,17 @@ scrapy爬取猎聘网招聘信息
 
 # 参考资料：
 
-# scrapy 官方文档
+scrapy 官方文档
 http://scrapy-chs.readthedocs.io/zh_CN/latest/intro/tutorial.html
 
-# scrapy 项目参考资料
+scrapy 项目参考资料
 http://www.wtoutiao.com/a/3063656.html
 
-# scrapy 写数据库资料
+scrapy 写数据库资料
 http://www.sharejs.com/codes/python/8392
 https://www.douban.com/group/topic/71578175/
 
-# scrapy 更改下载器中间键，设置代理ip
+scrapy 更改下载器中间键，设置代理ip
 http://blog.csdn.net/yelbosh/article/details/21542073
 
 ......
