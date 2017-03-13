@@ -3,8 +3,6 @@
 from scrapy.spiders import Spider
 from scrapy.selector import Selector
 from scrapy.http import Request
-# from scrapy.loader import ItemLoader
-# from scrapy import log
 from liepin.items import LiepinItem
 from urlparse import urljoin
 from utils import is_match
