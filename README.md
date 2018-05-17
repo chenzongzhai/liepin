@@ -14,7 +14,7 @@ scrapy爬取猎聘网招聘信息
 
 爬取入口地址，爬取规则，数据库配置信息统一写在config.py文件中
 
-启动程序需要先配置好MySQL数据库信息，创建对应表，建表语句参考：
+启动程序需要先配置好MySQL数据库信息，创建对应表：
 
 CREATE TABLE `liepin` (
 
@@ -50,10 +50,6 @@ CREATE TABLE `liepin` (
 
 启动命令：scrapy crawl liepin
 
-项目中log还有些问题，应该有更好的写法，之后会项目中添加download中间件，itemloder。
-
-个人感觉scrapy跟django很像
-
 # 参考资料：
 
 scrapy 官方文档
@@ -62,11 +58,11 @@ http://scrapy-chs.readthedocs.io/zh_CN/latest/intro/tutorial.html
 scrapy 项目参考资料
 http://www.wtoutiao.com/a/3063656.html
 
-scrapy 写数据库资料
+scrapy 读写数据库
 http://www.sharejs.com/codes/python/8392
 https://www.douban.com/group/topic/71578175/
 
-scrapy 更改下载器中间键，设置代理ip
+scrapy 中间键，设置代理ip
 http://blog.csdn.net/yelbosh/article/details/21542073
 
 ......
